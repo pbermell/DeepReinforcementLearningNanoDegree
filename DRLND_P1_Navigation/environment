@@ -1,0 +1,220 @@
+Processing /home/xtcdev/DRL/DEV/deep-reinforcement-learning/python
+Collecting tensorflow==1.7.1
+  Using cached tensorflow-1.7.1-cp36-cp36m-manylinux1_x86_64.whl (48.1 MB)
+Collecting Pillow>=4.2.1
+  Using cached Pillow-7.1.1-cp36-cp36m-manylinux1_x86_64.whl (2.1 MB)
+Collecting matplotlib
+  Using cached matplotlib-3.2.1-cp36-cp36m-manylinux1_x86_64.whl (12.4 MB)
+Requirement already satisfied: numpy>=1.11.0 in /home/xtcdev/anaconda3/envs/drlnd/lib/python3.6/site-packages (from unityagents==0.4.0) (1.18.3)
+Collecting jupyter
+  Using cached jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Collecting pytest>=3.2.2
+  Using cached pytest-5.4.1-py3-none-any.whl (246 kB)
+Collecting docopt
+  Using cached docopt-0.6.2.tar.gz (25 kB)
+Collecting pyyaml
+  Using cached PyYAML-5.3.1.tar.gz (269 kB)
+Collecting protobuf==3.5.2
+  Using cached protobuf-3.5.2-cp36-cp36m-manylinux1_x86_64.whl (6.4 MB)
+Collecting grpcio==1.11.0
+  Using cached grpcio-1.11.0-cp36-cp36m-manylinux1_x86_64.whl (8.8 MB)
+Collecting torch==0.4.0
+  Downloading torch-0.4.0-cp36-cp36m-manylinux1_x86_64.whl (484.0 MB)
+     |████████████████████████████████| 484.0 MB 2.9 kB/s 
+Collecting pandas
+  Downloading pandas-1.0.3-cp36-cp36m-manylinux1_x86_64.whl (10.0 MB)
+     |████████████████████████████████| 10.0 MB 343 kB/s 
+Requirement already satisfied: scipy in /home/xtcdev/anaconda3/envs/drlnd/lib/python3.6/site-packages (from unityagents==0.4.0) (1.4.1)
+Collecting ipykernel
+  Downloading ipykernel-5.2.1-py3-none-any.whl (118 kB)
+     |████████████████████████████████| 118 kB 3.1 MB/s 
+Collecting tensorboard<1.8.0,>=1.7.0
+  Downloading tensorboard-1.7.0-py3-none-any.whl (3.1 MB)
+     |████████████████████████████████| 3.1 MB 3.0 MB/s 
+Collecting absl-py>=0.1.6
+  Downloading absl-py-0.9.0.tar.gz (104 kB)
+     |████████████████████████████████| 104 kB 3.7 MB/s 
+Collecting gast>=0.2.0
+  Downloading gast-0.3.3-py2.py3-none-any.whl (9.7 kB)
+Requirement already satisfied: wheel>=0.26 in /home/xtcdev/anaconda3/envs/drlnd/lib/python3.6/site-packages (from tensorflow==1.7.1->unityagents==0.4.0) (0.34.2)
+Collecting termcolor>=1.1.0
+  Downloading termcolor-1.1.0.tar.gz (3.9 kB)
+Collecting astor>=0.6.0
+  Downloading astor-0.8.1-py2.py3-none-any.whl (27 kB)
+Requirement already satisfied: six>=1.10.0 in /home/xtcdev/anaconda3/envs/drlnd/lib/python3.6/site-packages (from tensorflow==1.7.1->unityagents==0.4.0) (1.14.0)
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+     |████████████████████████████████| 67 kB 1.6 MB/s 
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.2.0-cp36-cp36m-manylinux1_x86_64.whl (88 kB)
+     |████████████████████████████████| 88 kB 1.6 MB/s 
+Collecting python-dateutil>=2.1
+  Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+     |████████████████████████████████| 227 kB 3.4 MB/s 
+Collecting cycler>=0.10
+  Downloading cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting ipywidgets
+  Downloading ipywidgets-7.5.1-py2.py3-none-any.whl (121 kB)
+     |████████████████████████████████| 121 kB 3.1 MB/s 
+Collecting nbconvert
+  Downloading nbconvert-5.6.1-py2.py3-none-any.whl (455 kB)
+     |████████████████████████████████| 455 kB 3.0 MB/s 
+Collecting notebook
+  Downloading notebook-6.0.3-py3-none-any.whl (9.7 MB)
+     |████████████████████████████████| 9.7 MB 467 kB/s 
+Collecting qtconsole
+  Downloading qtconsole-4.7.3-py2.py3-none-any.whl (117 kB)
+     |████████████████████████████████| 117 kB 3.2 MB/s 
+Collecting jupyter-console
+  Downloading jupyter_console-6.1.0-py2.py3-none-any.whl (21 kB)
+Collecting more-itertools>=4.0.0
+  Downloading more_itertools-8.2.0-py3-none-any.whl (43 kB)
+     |████████████████████████████████| 43 kB 163 kB/s 
+Collecting py>=1.5.0
+  Downloading py-1.8.1-py2.py3-none-any.whl (83 kB)
+     |████████████████████████████████| 83 kB 288 kB/s 
+Collecting wcwidth
+  Downloading wcwidth-0.1.9-py2.py3-none-any.whl (19 kB)
+Collecting pluggy<1.0,>=0.12
+  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting packaging
+  Downloading packaging-20.3-py2.py3-none-any.whl (37 kB)
+Collecting attrs>=17.4.0
+  Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Collecting importlib-metadata>=0.12; python_version < "3.8"
+  Downloading importlib_metadata-1.6.0-py2.py3-none-any.whl (30 kB)
+Requirement already satisfied: setuptools in /home/xtcdev/anaconda3/envs/drlnd/lib/python3.6/site-packages (from protobuf==3.5.2->unityagents==0.4.0) (46.1.3.post20200330)
+Collecting pytz>=2017.2
+  Downloading pytz-2019.3-py2.py3-none-any.whl (509 kB)
+     |████████████████████████████████| 509 kB 3.2 MB/s 
+Collecting traitlets>=4.1.0
+  Downloading traitlets-4.3.3-py2.py3-none-any.whl (75 kB)
+     |████████████████████████████████| 75 kB 1.0 MB/s 
+Collecting tornado>=4.2
+  Downloading tornado-6.0.4.tar.gz (496 kB)
+     |████████████████████████████████| 496 kB 3.1 MB/s 
+Collecting jupyter-client
+  Downloading jupyter_client-6.1.3-py3-none-any.whl (106 kB)
+     |████████████████████████████████| 106 kB 3.4 MB/s 
+Collecting ipython>=5.0.0
+  Downloading ipython-7.13.0-py3-none-any.whl (780 kB)
+     |████████████████████████████████| 780 kB 3.2 MB/s 
+Collecting markdown>=2.6.8
+  Downloading Markdown-3.2.1-py2.py3-none-any.whl (88 kB)
+     |████████████████████████████████| 88 kB 1.2 MB/s 
+Collecting bleach==1.5.0
+  Downloading bleach-1.5.0-py2.py3-none-any.whl (17 kB)
+Collecting html5lib==0.9999999
+  Downloading html5lib-0.9999999.tar.gz (889 kB)
+     |████████████████████████████████| 889 kB 3.2 MB/s 
+Collecting werkzeug>=0.11.10
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+     |████████████████████████████████| 298 kB 3.1 MB/s 
+Collecting nbformat>=4.2.0
+  Downloading nbformat-5.0.6-py3-none-any.whl (170 kB)
+     |████████████████████████████████| 170 kB 3.1 MB/s 
+Collecting widgetsnbextension~=3.5.0
+  Downloading widgetsnbextension-3.5.1-py2.py3-none-any.whl (2.2 MB)
+     |████████████████████████████████| 2.2 MB 3.1 MB/s 
+Collecting mistune<2,>=0.8.1
+  Downloading mistune-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting jinja2>=2.4
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+     |████████████████████████████████| 125 kB 3.1 MB/s 
+Collecting testpath
+  Downloading testpath-0.4.4-py2.py3-none-any.whl (163 kB)
+     |████████████████████████████████| 163 kB 3.2 MB/s 
+Collecting entrypoints>=0.2.2
+  Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+Collecting defusedxml
+  Downloading defusedxml-0.6.0-py2.py3-none-any.whl (23 kB)
+Collecting pygments
+  Downloading Pygments-2.6.1-py3-none-any.whl (914 kB)
+     |████████████████████████████████| 914 kB 3.1 MB/s 
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.4.2.tar.gz (14 kB)
+Collecting jupyter-core
+  Downloading jupyter_core-4.6.3-py2.py3-none-any.whl (83 kB)
+     |████████████████████████████████| 83 kB 422 kB/s 
+Collecting Send2Trash
+  Downloading Send2Trash-1.5.0-py3-none-any.whl (12 kB)
+Collecting pyzmq>=17
+  Downloading pyzmq-19.0.0-cp36-cp36m-manylinux1_x86_64.whl (1.1 MB)
+     |████████████████████████████████| 1.1 MB 3.0 MB/s 
+Collecting terminado>=0.8.1
+  Downloading terminado-0.8.3-py2.py3-none-any.whl (33 kB)
+Collecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting prometheus-client
+  Downloading prometheus_client-0.7.1.tar.gz (38 kB)
+Collecting qtpy
+  Downloading QtPy-1.9.0-py2.py3-none-any.whl (54 kB)
+     |████████████████████████████████| 54 kB 910 kB/s 
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0
+  Downloading prompt_toolkit-3.0.5-py3-none-any.whl (351 kB)
+     |████████████████████████████████| 351 kB 3.2 MB/s 
+Collecting zipp>=0.5
+  Downloading zipp-3.1.0-py3-none-any.whl (4.9 kB)
+Collecting decorator
+  Downloading decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting backcall
+  Downloading backcall-0.1.0.tar.gz (9.7 kB)
+Collecting jedi>=0.10
+  Downloading jedi-0.17.0-py2.py3-none-any.whl (1.1 MB)
+     |████████████████████████████████| 1.1 MB 3.0 MB/s 
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting pexpect; sys_platform != "win32"
+  Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+     |████████████████████████████████| 59 kB 1.7 MB/s 
+Collecting jsonschema!=2.5.0,>=2.4
+  Downloading jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+     |████████████████████████████████| 56 kB 549 kB/s 
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl (27 kB)
+Collecting ptyprocess; os_name != "nt"
+  Downloading ptyprocess-0.6.0-py2.py3-none-any.whl (39 kB)
+Collecting parso>=0.7.0
+  Downloading parso-0.7.0-py2.py3-none-any.whl (100 kB)
+     |████████████████████████████████| 100 kB 2.0 MB/s 
+Collecting pyrsistent>=0.14.0
+  Downloading pyrsistent-0.16.0.tar.gz (108 kB)
+     |████████████████████████████████| 108 kB 3.4 MB/s 
+Building wheels for collected packages: unityagents, docopt, pyyaml, absl-py, termcolor, tornado, html5lib, pandocfilters, prometheus-client, backcall, pyrsistent
+  Building wheel for unityagents (setup.py) ... done
+  Created wheel for unityagents: filename=unityagents-0.4.0-py3-none-any.whl size=71640 sha256=3b3e7e9497fcdfd8feab8691a24f3ca98e1089350754f5b13781017375a79831
+  Stored in directory: /tmp/pip-ephem-wheel-cache-sbnmuw96/wheels/fc/7f/52/9995cc1c67cf8deba1c648cfae402f442b15ddfeddc5016350
+  Building wheel for docopt (setup.py) ... done
+  Created wheel for docopt: filename=docopt-0.6.2-py2.py3-none-any.whl size=13704 sha256=eb80832be930d1b22551a833cca8f7fd781be39cd0db5ce40b8a3627ddab42c5
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/3f/2a/fa/4d7a888e69774d5e6e855d190a8a51b357d77cc05eb1c097c9
+  Building wheel for pyyaml (setup.py) ... done
+  Created wheel for pyyaml: filename=PyYAML-5.3.1-cp36-cp36m-linux_x86_64.whl size=44621 sha256=6073d784b7ad18735f8c4756c158626b1b374f7cc3064cf00a2cb3d395269077
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/e5/9d/ad/2ee53cf262cba1ffd8afe1487eef788ea3f260b7e6232a80fc
+  Building wheel for absl-py (setup.py) ... done
+  Created wheel for absl-py: filename=absl_py-0.9.0-py3-none-any.whl size=121931 sha256=89339b6eff11e1c4a12053820050842b869e96f1b47ff39fdf7ff019ca37f2c1
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/c3/af/84/3962a6af7b4ab336e951b7877dcfb758cf94548bb1771e0679
+  Building wheel for termcolor (setup.py) ... done
+  Created wheel for termcolor: filename=termcolor-1.1.0-py3-none-any.whl size=4830 sha256=6e5ce6d18c7697eca6d15a305098df7dea675f37b6d1a3a477aa4adbc1b4a00e
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/93/2a/eb/e58dbcbc963549ee4f065ff80a59f274cc7210b6eab962acdc
+  Building wheel for tornado (setup.py) ... done
+  Created wheel for tornado: filename=tornado-6.0.4-cp36-cp36m-linux_x86_64.whl size=427722 sha256=f69b0d59e95ececcf78dfb4b94811d1fa0ae7b13edea4070400f4e6ff9e14ea7
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/37/a7/db/2d592e44029ef817f3ef63ea991db34191cebaef087a96f505
+  Building wheel for html5lib (setup.py) ... done
+  Created wheel for html5lib: filename=html5lib-0.9999999-py3-none-any.whl size=107220 sha256=ba3194faae9ed714ba30fbd2be4355ffa3dadcc88473852390dd0ed17bbbd908
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/90/1c/cb/a87fd097ff74648ecc468a703001f6c7c86d8a71d459e65c98
+  Building wheel for pandocfilters (setup.py) ... done
+  Created wheel for pandocfilters: filename=pandocfilters-1.4.2-py3-none-any.whl size=7856 sha256=cff5d5fa3edc403d2226b439c6dcfb74f23282f7ce85fe7c41052988b3b7552e
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/46/c4/40/718c6fd14c2129ccaee10e0cf03ef6c4d01d98cad5dbbfda38
+  Building wheel for prometheus-client (setup.py) ... done
+  Created wheel for prometheus-client: filename=prometheus_client-0.7.1-py3-none-any.whl size=41404 sha256=4ec35c56250e71cc7b4ade322bd14e6584ce4b05854d41b4f40eb4c21dc1cefb
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/1d/4a/79/a3ad3f74b3495b4555359375ca33ad7b64e77f8b7a53c8894f
+  Building wheel for backcall (setup.py) ... done
+  Created wheel for backcall: filename=backcall-0.1.0-py3-none-any.whl size=10413 sha256=b88a5b3577505028d88c89a742c9396ea6565fb3b09b4267f4fb8025c597d2c4
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/b4/cb/f1/d142b3bb45d488612cf3943d8a1db090eb95e6687045ba61d1
+  Building wheel for pyrsistent (setup.py) ... done
+  Created wheel for pyrsistent: filename=pyrsistent-0.16.0-cp36-cp36m-linux_x86_64.whl size=115047 sha256=5faaadeccec9c610c132248bfa41ec2922e6d0a3410a5dac2ffb772b526e36f1
+  Stored in directory: /home/xtcdev/.cache/pip/wheels/d1/8a/1c/32ab9017418a2c64e4fbaf503c08648bed2f8eb311b869a464
+Successfully built unityagents docopt pyyaml absl-py termcolor tornado html5lib pandocfilters prometheus-client backcall pyrsistent
+Installing collected packages: markdown, html5lib, bleach, protobuf, werkzeug, tensorboard, grpcio, absl-py, gast, termcolor, astor, tensorflow, Pillow, pyparsing, kiwisolver, python-dateutil, cycler, matplotlib, wcwidth, prompt-toolkit, ipython-genutils, decorator, traitlets, pygments, backcall, parso, jedi, pickleshare, ptyprocess, pexpect, ipython, zipp, importlib-metadata, pyrsistent, attrs, jsonschema, jupyter-core, nbformat, tornado, pyzmq, jupyter-client, ipykernel, Send2Trash, mistune, MarkupSafe, jinja2, testpath, entrypoints, defusedxml, pandocfilters, nbconvert, terminado, prometheus-client, notebook, widgetsnbextension, ipywidgets, qtpy, qtconsole, jupyter-console, jupyter, more-itertools, py, pluggy, packaging, pytest, docopt, pyyaml, torch, pytz, pandas, unityagents
+Successfully installed MarkupSafe-1.1.1 Pillow-7.1.1 Send2Trash-1.5.0 absl-py-0.9.0 astor-0.8.1 attrs-19.3.0 backcall-0.1.0 bleach-1.5.0 cycler-0.10.0 decorator-4.4.2 defusedxml-0.6.0 docopt-0.6.2 entrypoints-0.3 gast-0.3.3 grpcio-1.11.0 html5lib-0.9999999 importlib-metadata-1.6.0 ipykernel-5.2.1 ipython-7.13.0 ipython-genutils-0.2.0 ipywidgets-7.5.1 jedi-0.17.0 jinja2-2.11.2 jsonschema-3.2.0 jupyter-1.0.0 jupyter-client-6.1.3 jupyter-console-6.1.0 jupyter-core-4.6.3 kiwisolver-1.2.0 markdown-3.2.1 matplotlib-3.2.1 mistune-0.8.4 more-itertools-8.2.0 nbconvert-5.6.1 nbformat-5.0.6 notebook-6.0.3 packaging-20.3 pandas-1.0.3 pandocfilters-1.4.2 parso-0.7.0 pexpect-4.8.0 pickleshare-0.7.5 pluggy-0.13.1 prometheus-client-0.7.1 prompt-toolkit-3.0.5 protobuf-3.5.2 ptyprocess-0.6.0 py-1.8.1 pygments-2.6.1 pyparsing-2.4.7 pyrsistent-0.16.0 pytest-5.4.1 python-dateutil-2.8.1 pytz-2019.3 pyyaml-5.3.1 pyzmq-19.0.0 qtconsole-4.7.3 qtpy-1.9.0 tensorboard-1.7.0 tensorflow-1.7.1 termcolor-1.1.0 terminado-0.8.3 testpath-0.4.4 torch-0.4.0 tornado-6.0.4 traitlets-4.3.3 unityagents-0.4.0 wcwidth-0.1.9 werkzeug-1.0.1 widgetsnbextension-3.5.1 zipp-3.1.0
+
